@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//store procedure
+Route::get('storeprocedure','VehiculoController@storeprocedure');
